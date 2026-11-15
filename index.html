@@ -202,14 +202,14 @@
       margin: 0 auto;
       padding: 3.5rem 2rem 4rem;
       display: grid;
-      grid-template-columns: 1fr 280px;
-      gap: 4rem;
-      align-items: start;
+      grid-template-columns: 220px 1fr 220px;
+      gap: 2.5rem;
+      align-items: center;
     }
 
     @media (max-width: 700px) {
-      .hero { grid-template-columns: 1fr; padding: 2.5rem 1.25rem 3rem; gap: 2rem; }
-      .hero-portrait { max-width: 220px; }
+     .hero { grid-template-columns: 1fr; padding: 2.5rem 1.25rem 3rem; gap: 2rem; }
+      .hero-portrait { max-width: 220px; margin: 0 auto; }
       nav { padding: 0.9rem 1.25rem; }
       .nav-links { gap: 1.2rem; }
     }
@@ -233,6 +233,9 @@
       line-height: 1.8;
       max-width: 48ch;
       margin-bottom: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
     }
 
     .hero-links {
@@ -640,6 +643,11 @@
     </div>
 
     <div class="hero">
+      <div class="hero-portrait">
+        <div class="hero-portrait-img">
+          <img src="yourphoto2.jpg" alt="Arina Martin">
+        </div>
+      </div>
       <div>
         <p class="hero-desc">
           Hi, I'm Arina. I am a 3rd year PhD student in the <a href="https://novaklabosu.github.io/"
